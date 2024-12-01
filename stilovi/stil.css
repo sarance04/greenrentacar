@@ -1,0 +1,357 @@
+*{
+    font-family: sans-serif
+}
+body {
+    margin: 0px;
+}
+
+.nav-section {
+    display: flex;
+    background-color: rgba(17, 29, 41, 255);
+    color: rgba(176, 210, 54, 255);
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .nav-section {
+
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .nav-section {
+
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .nav-section {
+
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 794px) {
+    .nav-section {
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.logo {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 794px) {
+    .logo {
+        font-size: 20px;
+    }
+}
+
+.logo:hover {
+    color: white;
+    -webkit-text-stroke: 1px rgba(176, 210, 54, 255);
+}
+
+.element {
+    display: inline;
+}
+
+.element a {
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 5px;
+    color: rgba(176, 210, 54, 255);
+    font-size: 19px;
+    border-bottom: 2px solid rgba(176, 210, 54, 0);
+}
+
+@media screen and (max-width: 794px) {
+    .element a {
+        margin-left: 25px;
+    }
+}
+
+
+.element a:hover {
+    border-bottom: 2px solid rgba(176, 210, 54, 255);
+    color: rgba(176, 150, 54, 255);
+    transition-duration: 1s;
+}
+
+.pozadina {
+    background-image: url(../slike/bg.png);
+    height: 880px;
+    margin-top: 0px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+}
+
+.pozadinaponuda{
+    background-image: url(../slike/bg.png);
+    height: 880px;
+    margin-top: 0px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 1350px) {
+    .pozadinaponuda {
+        background-repeat: repeat;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        height: auto
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .pozadinaponuda {
+        background-repeat: repeat;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        height: auto
+        
+    }
+}
+
+.pozadinakontakt
+{
+    background-image: url(../slike/bg.png);
+    height: 880px;
+    margin-top: 0px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+h1 {
+    color: rgba(17, 29, 41, 255);
+    ;
+    text-align: center;
+    margin: 0px;
+    font-size: 35px;
+
+}
+
+.naslov {
+    width: 700px;
+    border-radius: 30px;
+    border: 2px solid rgba(17, 29, 41, 255);
+    padding: 30px 40px;
+    background-color: rgba(176, 210, 54, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.naslovkontakt
+{
+    width: 700px;
+    border-radius: 30px;
+    border: 2px solid rgba(17, 29, 41, 255);
+    padding: 30px 40px;
+    background-color: rgba(176, 210, 54, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 794px) {
+    .naslovkontakt {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 794px) {
+    .naslov {
+        width: 500px;
+        padding: 25px 35px;
+    }
+}
+
+
+
+.footer {
+    background-color: rgba(17, 29, 41, 255);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgba(176, 210, 54, 255);
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.podnaslov {
+    width: 800px;
+    border-radius: 30px;
+    border: 2px solid rgba(17, 29, 41, 255);
+    padding: 20px 30px;
+    background-color: rgba(176, 210, 54, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 896px) {
+    .podnaslov {
+        width: 700px;
+        padding: 15px 25px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 794px) {
+    .podnaslov {
+        width: 600px;
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+}
+
+.okvir {
+    padding: 2px 16px;
+    color: rgba(176, 210, 54, 255);
+    text-align: center;
+}
+
+.kartica {
+    background-color: rgba(17, 29, 41, 255);
+    padding-top: 20px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.49);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.49);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.49);
+    transition: 0.5s;
+}
+
+.kartica:hover{
+    margin-top: -20px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+
+}
+
+.kartica-wrapper {
+    display: flex;
+
+    justify-content: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .kartica-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .kartica-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.cenadan{
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cenadan a
+{
+    text-decoration: none;
+}
+
+.textkontakt
+{
+    text-align: center;
+    color: rgba(17, 29, 41, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.posalji
+{
+    background-color: rgba(17, 29, 41, 255);
+    border-radius: 5px;
+    color: rgba(176, 210, 54, 255);
+}
+
+.glavnoo
+{
+    background-color: rgba(176, 210, 54, 255);
+    text-align: center;
+    color: rgba(17, 29, 41, 255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.uslovi
+{
+    margin-bottom: 0px;
+    font-size: 25px;
+    list-style-position: inside;
+}
+.uslovi-caption
+{
+    color: rgba(17, 29, 41, 255);
+    font-size: 40px;
+    margin-top: 0px;
+}
+.caption2
+{
+    font-size: 32px;
+}
+
+.finish
+{
+    background-color: rgba(17, 29, 41, 255);
+    color: rgba(176, 210, 54, 255);
+    width: 300px;
+    height: 100px;
+    font-size: 35px;
+    border: 2px solid whitesmoke;
+    margin-top: 15px;
+}
+
+.finish:hover
+{
+    background-color: whitesmoke;
+    border: 2px solid rgba(17, 29, 41, 255);
+    font-size: 40px;
+    font-weight: bold;
+}
+.biraj
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgba(17, 29, 41, 255);
+    width: 150px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Green Rent A Car</title>
+  <link>https://www.greenrentacar.rs/index.html</link>
+  <description>Zelena rent a car agencija</description>
+  <item>
+    <title>Novi Golf U Ponudi</title>
+    <link>https://www.greenrentacar.rs/ponuda</link>
+    <description>Od danas možete iznajmiti Golf 8 kod nas</description>
+  </item>
+  <item>
+    <title>Škoda Superb na popustu</title>
+    <link>https://www.greenrentacar.rs/ponuda</link>
+    <description>Akcija na iznajmljivanje Škode Superb</description>
+  </item>
+</channel>
+
+</rss>
